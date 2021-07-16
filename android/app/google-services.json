@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "452525690141",
+    "project_id": "affiliateprograms-715da",
+    "storage_bucket": "affiliateprograms-715da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452525690141:android:22365e2fd42ca3ce34a5f4",
+        "android_client_info": {
+          "package_name": "com.programsaffiliate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452525690141-434oehs0vtfk91546e00pr4sitd5qej1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOdve68WIYOA-VoQdY62btq5_ap3WNbpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452525690141-434oehs0vtfk91546e00pr4sitd5qej1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
