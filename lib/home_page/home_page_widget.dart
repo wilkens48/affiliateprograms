@@ -1084,75 +1084,74 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               showsTestAd: false,
                               androidAdUnitID:
                                   'ca-app-pub-1386384442132281/4494663378',
-                            ),
-                            Padding(
-                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                              child: InkWell(
-                                onTap: () async {
-                                  await launchURL(
-                                      'https://warriorplus.com/o2/a/llk6x/0');
-                                },
-                                child: Container(
-                                  width: 100,
-                                  height: 100,
-                                  decoration: BoxDecoration(
-                                    color: Color(0xFFFBFBFB),
-                                  ),
-                                  child: Row(
-                                    mainAxisSize: MainAxisSize.max,
-                                    children: [
-                                      Expanded(
-                                        child: Column(
-                                          mainAxisSize: MainAxisSize.max,
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.center,
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.start,
-                                          children: [
-                                            Text(
-                                              'Pinterest Profit Secrets with PLR',
-                                              style: FlutterFlowTheme.subtitle2
-                                                  .override(
-                                                fontFamily: 'Open Sans',
-                                                fontWeight: FontWeight.bold,
-                                              ),
-                                            ),
-                                            Text(
-                                              'Social networks in the world',
-                                              style: FlutterFlowTheme.subtitle2
-                                                  .override(
-                                                fontFamily: 'Poppins',
-                                              ),
-                                            ),
-                                            Text(
-                                              'How your product or services',
-                                              textAlign: TextAlign.justify,
-                                              style: FlutterFlowTheme.bodyText1
-                                                  .override(
-                                                fontFamily: 'Poppins',
-                                              ),
-                                            )
-                                          ],
-                                        ),
-                                      ),
-                                      Column(
-                                        mainAxisSize: MainAxisSize.max,
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        children: [
-                                          Icon(
-                                            Icons.navigate_next_sharp,
-                                            color: Colors.black,
-                                            size: 24,
-                                          )
-                                        ],
-                                      )
-                                    ],
-                                  ),
-                                ),
-                              ),
                             )
                           ],
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          child: InkWell(
+                            onTap: () async {
+                              await launchURL(
+                                  'https://warriorplus.com/o2/a/llk6x/0');
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFBFBFB),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'Pinterest Profit Secrets with PLR',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          'Social networks in the world',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                          ),
+                                        ),
+                                        Text(
+                                          'How your product or services',
+                                          textAlign: TextAlign.justify,
+                                          style: FlutterFlowTheme.bodyText1
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
                         ),
                         Padding(
                           padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
