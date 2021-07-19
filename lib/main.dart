@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:affiliateprograms/home_page/home_page_widget.dart';
+import 'package:affiliateprograms/slaphpage/slaphpage_widget.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'flutter_flow/flutter_flow_theme.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'affiliateprograms',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: HomePageWidget(),
+      home: SlaphpageWidget(),
     );
   }
 }

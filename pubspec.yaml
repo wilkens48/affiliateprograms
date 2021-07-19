@@ -35,6 +35,7 @@ dependencies:
   intl:
   json_serializable: ^3.5.1
   page_transition:
+  smooth_page_indicator:
   timeago:
   url_launcher:
 

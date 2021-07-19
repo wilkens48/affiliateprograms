@@ -1,3 +1,16 @@
+import '../affiliatepag4/affiliatepag4_widget.dart';
+import '../affiliatepage1/affiliatepage1_widget.dart';
+import '../affiliatepage10/affiliatepage10_widget.dart';
+import '../affiliatepage11/affiliatepage11_widget.dart';
+import '../affiliatepage12/affiliatepage12_widget.dart';
+import '../affiliatepage13/affiliatepage13_widget.dart';
+import '../affiliatepage2/affiliatepage2_widget.dart';
+import '../affiliatepage3/affiliatepage3_widget.dart';
+import '../affiliatepage5/affiliatepage5_widget.dart';
+import '../affiliatepage6/affiliatepage6_widget.dart';
+import '../affiliatepage7/affiliatepage7_widget.dart';
+import '../affiliatepage8/affiliatepage8_widget.dart';
+import '../affiliatepage9/affiliatepage9_widget.dart';
 import '../flutter_flow/flutter_flow_ad_banner.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
@@ -90,7 +103,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           children: [
                             FlutterFlowAdBanner(
                               width: MediaQuery.of(context).size.width,
-                              height: 50,
+                              height: 100,
                               showsTestAd: false,
                               androidAdUnitID:
                                   'ca-app-pub-1386384442132281/4494663378',
@@ -101,8 +114,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                           child: InkWell(
                             onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/wst4m/0');
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage2Widget(),
+                                ),
+                              );
                             },
                             child: Container(
                               width: 100,
@@ -122,7 +139,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          ' Secret Email System',
+                                          'Secret Email System',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Open Sans',
@@ -130,18 +147,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'For Anyone Looking To Start...',
+                                          'For Anyone Looking To Start, Scale and Grow A Digital Business In 2021 \"New Book Reveals How I Built A 7-Figure Online Business Using Nothing But Ethical Email Marketing To Drive Revenue, Sales and Commissions...”',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Scale and Grow A Digital Business ',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -167,8 +177,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                           child: InkWell(
                             onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/zpn4y/0');
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage1Widget(),
+                                ),
+                              );
                             },
                             child: Container(
                               width: 100,
@@ -188,7 +202,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'VidJar Video Hosting Software',
+                                          '16k Swipes',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Open Sans',
@@ -196,18 +210,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Hosting & Marketing Platform ...',
+                                          'Imagine getting your hands on the 219 emails that I paid \$16,000 for then turned into exactly \$2,204,084.55, best part, you get them for peanuts...',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          ' Video Marketing Agency...',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -233,8 +240,264 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                           child: InkWell(
                             onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/q52sd/0');
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage3Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFBFBFB),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'ProfitzBuddy - Live 10AM EST',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          '50% throughout funnel',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepag4Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFBFBFB),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'Traffic Avalanche - 100% Commissions + \$5150 PRIZES',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          'Huge affiliate contest now on.',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage5Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFBFBFB),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          '(PLR) Pandemic Mental Health Secrets',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          't\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage6Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFBFBFB),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'VidJar - Ultra-Fast Video Hosting Software',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          'Vidjar is an ultra-fast, video hosting & marketing platform to upload unlimited marketing & sales videos like a pro',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage7Widget(),
+                                ),
+                              );
                             },
                             child: Container(
                               width: 100,
@@ -262,18 +525,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Cash In On The NEW Growing...',
+                                          '78 High-Quality \"Color By Number\" for kids (with SVG Files and Commercial License)',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Color By Number\" Book Niche ....',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -295,30 +551,22 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            FlutterFlowAdBanner(
-                              width: MediaQuery.of(context).size.width,
-                              height: 50,
-                              showsTestAd: false,
-                              androidAdUnitID:
-                                  'ca-app-pub-1386384442132281/4494663378',
-                            )
-                          ],
-                        ),
                         Padding(
                           padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                           child: InkWell(
                             onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/tgfr4/0');
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage8Widget(),
+                                ),
+                              );
                             },
                             child: Container(
                               width: 100,
                               height: 100,
                               decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                                color: FlutterFlowTheme.tertiaryColor,
                               ),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
@@ -332,7 +580,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          ' Zero Hour Work Days (LAUNCH)',
+                                          ' Big Money (Deal of the Day) from Small Audiences 3 Day Workshop',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Open Sans',
@@ -340,18 +588,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          '\$9,259.74 Per Month with...',
+                                          '3-DAY WORKSHOP RECORDING: If You Have Ever Dreamed Of Having a Hyper Active Group of Hungry Buyers Hanging on Your Every Word To Make...',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'How it Works?',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -373,19 +614,23 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                          child: InkWell(
-                            onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/gqs4m/0');
-                            },
-                            child: Container(
-                              width: 100,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage9Widget(),
                               ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
@@ -406,18 +651,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Looking For A Brand-New',
+                                          'It\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Tap Into \$100 Billion Industry With This',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -439,19 +677,23 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                          child: InkWell(
-                            onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/w8htr/0');
-                            },
-                            child: Container(
-                              width: 100,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage10Widget(),
                               ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
@@ -464,7 +706,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'UOP FX Academy',
+                                          'Zero Hour Work Days (LAUNCH)',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Open Sans',
@@ -472,18 +714,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Work-from-home business..',
+                                          'Start today, quit the 9-5 and work from your couch. Zero Hour Work Days creates a lifestyle business that gives you money and time freedom.',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Works to skyrocket your income….',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -505,31 +740,23 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            FlutterFlowAdBanner(
-                              width: MediaQuery.of(context).size.width,
-                              height: 50,
-                              showsTestAd: false,
-                              androidAdUnitID:
-                                  'ca-app-pub-1386384442132281/4494663378',
-                            )
-                          ],
-                        ),
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                          child: InkWell(
-                            onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/llk6x/0');
-                            },
-                            child: Container(
-                              width: 100,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage11Widget(),
                               ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
@@ -550,18 +777,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Social networks in the world',
+                                          'It\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'How your product or services',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -583,19 +803,86 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                          child: InkWell(
-                            onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/r876r/0');
-                            },
-                            child: Container(
-                              width: 100,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage12Widget(),
                               ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'UOP FX Academy',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          'We provide you with Forex training so even complete newbies can take advantage of this market’s profit producing potential.',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage13Widget(),
+                              ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
@@ -616,18 +903,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Your Chance to get Your ',
+                                          'Grab 200+ Viral Quote Images with Private Label Rights to Engage Your Social Media Audience and Magnify Your Sales and Profits Almost Instantly!!!',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Viral Traffic Snowball Rolling Downhill!',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -653,6 +933,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     ),
                     ListView(
                       padding: EdgeInsets.zero,
+                      shrinkWrap: true,
                       scrollDirection: Axis.vertical,
                       children: [
                         Row(
@@ -660,7 +941,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           children: [
                             FlutterFlowAdBanner(
                               width: MediaQuery.of(context).size.width,
-                              height: 50,
+                              height: 100,
                               showsTestAd: false,
                               androidAdUnitID:
                                   'ca-app-pub-1386384442132281/4494663378',
@@ -671,8 +952,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                           child: InkWell(
                             onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/wst4m/0');
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage2Widget(),
+                                ),
+                              );
                             },
                             child: Container(
                               width: 100,
@@ -692,7 +977,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          ' Secret Email System',
+                                          'Secret Email System',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Open Sans',
@@ -700,18 +985,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'For Anyone Looking To Start...',
+                                          'For Anyone Looking To Start, Scale and Grow A Digital Business In 2021 \"New Book Reveals How I Built A 7-Figure Online Business Using Nothing But Ethical Email Marketing To Drive Revenue, Sales and Commissions...”',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Scale and Grow A Digital Business ',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -737,8 +1015,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                           child: InkWell(
                             onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/zpn4y/0');
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage1Widget(),
+                                ),
+                              );
                             },
                             child: Container(
                               width: 100,
@@ -758,7 +1040,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'VidJar Video Hosting Software',
+                                          '16k Swipes',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Open Sans',
@@ -766,18 +1048,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Hosting & Marketing Platform ...',
+                                          'Imagine getting your hands on the 219 emails that I paid \$16,000 for then turned into exactly \$2,204,084.55, best part, you get them for peanuts...',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          ' Video Marketing Agency...',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -803,8 +1078,264 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                           child: InkWell(
                             onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/q52sd/0');
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage3Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFBFBFB),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'ProfitzBuddy - Live 10AM EST',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          '50% throughout funnel',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepag4Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFBFBFB),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'Traffic Avalanche - 100% Commissions + \$5150 PRIZES',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          'Huge affiliate contest now on.',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage5Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFBFBFB),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          '(PLR) Pandemic Mental Health Secrets',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          't\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage6Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFBFBFB),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'VidJar - Ultra-Fast Video Hosting Software',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          'Vidjar is an ultra-fast, video hosting & marketing platform to upload unlimited marketing & sales videos like a pro',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage7Widget(),
+                                ),
+                              );
                             },
                             child: Container(
                               width: 100,
@@ -832,18 +1363,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Cash In On The NEW Growing...',
+                                          '78 High-Quality \"Color By Number\" for kids (with SVG Files and Commercial License)',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Color By Number\" Book Niche ....',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -865,30 +1389,22 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            FlutterFlowAdBanner(
-                              width: MediaQuery.of(context).size.width,
-                              height: 50,
-                              showsTestAd: false,
-                              androidAdUnitID:
-                                  'ca-app-pub-1386384442132281/4494663378',
-                            )
-                          ],
-                        ),
                         Padding(
                           padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                           child: InkWell(
                             onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/tgfr4/0');
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage8Widget(),
+                                ),
+                              );
                             },
                             child: Container(
                               width: 100,
                               height: 100,
                               decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                                color: FlutterFlowTheme.tertiaryColor,
                               ),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
@@ -902,7 +1418,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          ' Zero Hour Work Days (LAUNCH)',
+                                          ' Big Money (Deal of the Day) from Small Audiences 3 Day Workshop',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Open Sans',
@@ -910,18 +1426,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          '\$9,259.74 Per Month with...',
+                                          '3-DAY WORKSHOP RECORDING: If You Have Ever Dreamed Of Having a Hyper Active Group of Hungry Buyers Hanging on Your Every Word To Make...',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'How it Works?',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -943,19 +1452,23 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                          child: InkWell(
-                            onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/gqs4m/0');
-                            },
-                            child: Container(
-                              width: 100,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage9Widget(),
                               ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
@@ -976,18 +1489,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Looking For A Brand-New',
+                                          'It\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Tap Into \$100 Billion Industry With This',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -1009,19 +1515,23 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                          child: InkWell(
-                            onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/w8htr/0');
-                            },
-                            child: Container(
-                              width: 100,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage10Widget(),
                               ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
@@ -1034,7 +1544,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'UOP FX Academy',
+                                          'Zero Hour Work Days (LAUNCH)',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Open Sans',
@@ -1042,18 +1552,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Work-from-home business..',
+                                          'Start today, quit the 9-5 and work from your couch. Zero Hour Work Days creates a lifestyle business that gives you money and time freedom.',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Works to skyrocket your income….',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -1075,31 +1578,23 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            FlutterFlowAdBanner(
-                              width: MediaQuery.of(context).size.width,
-                              height: 50,
-                              showsTestAd: false,
-                              androidAdUnitID:
-                                  'ca-app-pub-1386384442132281/4494663378',
-                            )
-                          ],
-                        ),
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                          child: InkWell(
-                            onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/llk6x/0');
-                            },
-                            child: Container(
-                              width: 100,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage11Widget(),
                               ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
@@ -1120,18 +1615,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Social networks in the world',
+                                          'It\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'How your product or services',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -1153,19 +1641,86 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                          child: InkWell(
-                            onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/r876r/0');
-                            },
-                            child: Container(
-                              width: 100,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage12Widget(),
                               ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'UOP FX Academy',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          'We provide you with Forex training so even complete newbies can take advantage of this market’s profit producing potential.',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage13Widget(),
+                              ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
@@ -1186,18 +1741,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Your Chance to get Your ',
+                                          'Grab 200+ Viral Quote Images with Private Label Rights to Engage Your Social Media Audience and Magnify Your Sales and Profits Almost Instantly!!!',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Viral Traffic Snowball Rolling Downhill!',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -1223,6 +1771,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     ),
                     ListView(
                       padding: EdgeInsets.zero,
+                      shrinkWrap: true,
                       scrollDirection: Axis.vertical,
                       children: [
                         Row(
@@ -1230,7 +1779,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           children: [
                             FlutterFlowAdBanner(
                               width: MediaQuery.of(context).size.width,
-                              height: 50,
+                              height: 100,
                               showsTestAd: false,
                               androidAdUnitID:
                                   'ca-app-pub-1386384442132281/4494663378',
@@ -1241,8 +1790,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                           child: InkWell(
                             onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/wst4m/0');
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage2Widget(),
+                                ),
+                              );
                             },
                             child: Container(
                               width: 100,
@@ -1262,7 +1815,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          ' Secret Email System',
+                                          'Secret Email System',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Open Sans',
@@ -1270,18 +1823,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'For Anyone Looking To Start...',
+                                          'For Anyone Looking To Start, Scale and Grow A Digital Business In 2021 \"New Book Reveals How I Built A 7-Figure Online Business Using Nothing But Ethical Email Marketing To Drive Revenue, Sales and Commissions...”',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Scale and Grow A Digital Business ',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -1307,8 +1853,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                           child: InkWell(
                             onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/zpn4y/0');
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage1Widget(),
+                                ),
+                              );
                             },
                             child: Container(
                               width: 100,
@@ -1328,7 +1878,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'VidJar Video Hosting Software',
+                                          '16k Swipes',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Open Sans',
@@ -1336,18 +1886,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Hosting & Marketing Platform ...',
+                                          'Imagine getting your hands on the 219 emails that I paid \$16,000 for then turned into exactly \$2,204,084.55, best part, you get them for peanuts...',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          ' Video Marketing Agency...',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -1373,8 +1916,264 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                           child: InkWell(
                             onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/q52sd/0');
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage3Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFBFBFB),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'ProfitzBuddy - Live 10AM EST',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          '50% throughout funnel',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepag4Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFBFBFB),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'Traffic Avalanche - 100% Commissions + \$5150 PRIZES',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          'Huge affiliate contest now on.',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage5Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFBFBFB),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          '(PLR) Pandemic Mental Health Secrets',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          't\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage6Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFBFBFB),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'VidJar - Ultra-Fast Video Hosting Software',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          'Vidjar is an ultra-fast, video hosting & marketing platform to upload unlimited marketing & sales videos like a pro',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage7Widget(),
+                                ),
+                              );
                             },
                             child: Container(
                               width: 100,
@@ -1402,18 +2201,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Cash In On The NEW Growing...',
+                                          '78 High-Quality \"Color By Number\" for kids (with SVG Files and Commercial License)',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Color By Number\" Book Niche ....',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -1435,30 +2227,22 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            FlutterFlowAdBanner(
-                              width: MediaQuery.of(context).size.width,
-                              height: 50,
-                              showsTestAd: false,
-                              androidAdUnitID:
-                                  'ca-app-pub-1386384442132281/4494663378',
-                            )
-                          ],
-                        ),
                         Padding(
                           padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                           child: InkWell(
                             onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/tgfr4/0');
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage8Widget(),
+                                ),
+                              );
                             },
                             child: Container(
                               width: 100,
                               height: 100,
                               decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                                color: FlutterFlowTheme.tertiaryColor,
                               ),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
@@ -1472,7 +2256,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          ' Zero Hour Work Days (LAUNCH)',
+                                          ' Big Money (Deal of the Day) from Small Audiences 3 Day Workshop',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Open Sans',
@@ -1480,18 +2264,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          '\$9,259.74 Per Month with...',
+                                          '3-DAY WORKSHOP RECORDING: If You Have Ever Dreamed Of Having a Hyper Active Group of Hungry Buyers Hanging on Your Every Word To Make...',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'How it Works?',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -1513,19 +2290,23 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                          child: InkWell(
-                            onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/gqs4m/0');
-                            },
-                            child: Container(
-                              width: 100,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage9Widget(),
                               ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
@@ -1546,18 +2327,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Looking For A Brand-New',
+                                          'It\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Tap Into \$100 Billion Industry With This',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -1579,19 +2353,23 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                          child: InkWell(
-                            onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/w8htr/0');
-                            },
-                            child: Container(
-                              width: 100,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage10Widget(),
                               ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
@@ -1604,7 +2382,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'UOP FX Academy',
+                                          'Zero Hour Work Days (LAUNCH)',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Open Sans',
@@ -1612,18 +2390,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Work-from-home business..',
+                                          'Start today, quit the 9-5 and work from your couch. Zero Hour Work Days creates a lifestyle business that gives you money and time freedom.',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Works to skyrocket your income….',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -1645,31 +2416,23 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            FlutterFlowAdBanner(
-                              width: MediaQuery.of(context).size.width,
-                              height: 50,
-                              showsTestAd: false,
-                              androidAdUnitID:
-                                  'ca-app-pub-1386384442132281/4494663378',
-                            )
-                          ],
-                        ),
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                          child: InkWell(
-                            onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/llk6x/0');
-                            },
-                            child: Container(
-                              width: 100,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage11Widget(),
                               ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
@@ -1690,18 +2453,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Social networks in the world',
+                                          'It\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'How your product or services',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
@@ -1723,19 +2479,86 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                          child: InkWell(
-                            onTap: () async {
-                              await launchURL(
-                                  'https://warriorplus.com/o2/a/r876r/0');
-                            },
-                            child: Container(
-                              width: 100,
-                              height: 100,
-                              decoration: BoxDecoration(
-                                color: Color(0xFFFBFBFB),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage12Widget(),
                               ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          'UOP FX Academy',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Open Sans',
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                        Text(
+                                          'We provide you with Forex training so even complete newbies can take advantage of this market’s profit producing potential.',
+                                          style: FlutterFlowTheme.subtitle2
+                                              .override(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(
+                                        Icons.navigate_next_sharp,
+                                        color: Colors.black,
+                                        size: 24,
+                                      )
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Affiliatepage13Widget(),
+                              ),
+                            );
+                          },
+                          child: Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.tertiaryColor,
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
@@ -1756,18 +2579,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Text(
-                                          'Your Chance to get Your ',
+                                          'Grab 200+ Viral Quote Images with Private Label Rights to Engage Your Social Media Audience and Magnify Your Sales and Profits Almost Instantly!!!',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
-                                          ),
-                                        ),
-                                        Text(
-                                          'Viral Traffic Snowball Rolling Downhill!',
-                                          textAlign: TextAlign.justify,
-                                          style: FlutterFlowTheme.bodyText1
-                                              .override(
-                                            fontFamily: 'Poppins',
+                                            fontSize: 12,
                                           ),
                                         )
                                       ],
