@@ -267,7 +267,7 @@ class _Affiliatepage3WidgetState extends State<Affiliatepage3Widget> {
                                     children: [
                                       Expanded(
                                         child: Text(
-                                          'Wanna Do The Same?\\nFollow These 3 Simple Steps',
+                                          'Wanna Do The Same? Follow These 3 Simple Steps',
                                           style:
                                               FlutterFlowTheme.title1.override(
                                             fontFamily: 'Poppins',

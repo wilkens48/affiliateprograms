@@ -287,7 +287,7 @@ class _Affiliatepag4WidgetState extends State<Affiliatepag4Widget> {
                                     children: [
                                       Expanded(
                                         child: Text(
-                                          '\\n.- Login to the app & launch your website 1 click .- Add your affiliate links .- Watch as the AI writes daily content that gets you an avalanche of daily google rankings  \\n',
+                                          '.- Login to the app & launch your website 1 click .- Add your affiliate links .- Watch as the AI writes daily content that gets you an avalanche of daily google rankings  ',
                                           textAlign: TextAlign.justify,
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
