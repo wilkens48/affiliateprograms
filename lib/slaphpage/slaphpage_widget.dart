@@ -79,7 +79,7 @@ class _SlaphpageWidgetState extends State<SlaphpageWidget> {
                             options: FFButtonOptions(
                               width: 350,
                               height: 40,
-                              color: Color(0xEB592F74),
+                              color: Color(0x17592F74),
                               textStyle: FlutterFlowTheme.title1.override(
                                 fontFamily: 'Poppins',
                                 color: FlutterFlowTheme.tertiaryColor,

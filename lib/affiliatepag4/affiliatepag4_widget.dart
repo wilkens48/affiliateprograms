@@ -3,7 +3,6 @@ import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
 import '../home_page/home_page_widget.dart';
-import '../slaphpage/slaphpage_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -34,20 +33,10 @@ class _Affiliatepag4WidgetState extends State<Affiliatepag4Widget> {
         },
         backgroundColor: Color(0x2F900AEA),
         elevation: 8,
-        label: InkWell(
-          onTap: () async {
-            await Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => SlaphpageWidget(),
-              ),
-            );
-          },
-          child: Icon(
-            Icons.keyboard_backspace,
-            color: Color(0xFF030000),
-            size: 32,
-          ),
+        label: Icon(
+          Icons.keyboard_backspace,
+          color: Color(0xFF030000),
+          size: 32,
         ),
       ),
       body: Column(
@@ -80,12 +69,50 @@ class _Affiliatepag4WidgetState extends State<Affiliatepag4Widget> {
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    FlutterFlowAdBanner(
-                                      width: 350,
-                                      height: 500,
-                                      showsTestAd: false,
-                                      androidAdUnitID:
-                                          'ca-app-pub-1386384442132281/4494663378',
+                                    Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        )
+                                      ],
                                     )
                                   ],
                                 ),
@@ -94,12 +121,16 @@ class _Affiliatepag4WidgetState extends State<Affiliatepag4Widget> {
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
-                                      Text(
-                                        'NEW TRAFFIC LOOPHOLE\\nTricks GOOGLEBOT Into Sending Us\\n\$543 FREE CASH',
-                                        style: FlutterFlowTheme.title1.override(
-                                          fontFamily: 'Poppins',
-                                          color: FlutterFlowTheme.tertiaryColor,
-                                          fontSize: 18,
+                                      Expanded(
+                                        child: Text(
+                                          'NEW TRAFFIC LOOPHOLE TAricks GOOGLEBOT Into Sending Us \$543 FREE CASH',
+                                          style:
+                                              FlutterFlowTheme.title1.override(
+                                            fontFamily: 'Poppins',
+                                            color:
+                                                FlutterFlowTheme.tertiaryColor,
+                                            fontSize: 18,
+                                          ),
                                         ),
                                       )
                                     ],
@@ -112,7 +143,7 @@ class _Affiliatepag4WidgetState extends State<Affiliatepag4Widget> {
                                     children: [
                                       Expanded(
                                         child: Text(
-                                          'EVERYTIME We Feed It The \"Secret Word\"\\nClick Fully Automated Sites\\nGet 100% Original content... DAILY!\\nGet 1x NEW Google Ranking...​every day!\\nMake 11x Commissions... Fast!\\nZERO Hosting Or Domain\\n100% Beginner Friendly\\n\$6 TRILLION: take your slice',
+                                          'EVERYTIME We Feed It The \"Secret Word\" Click Fully Automated Sites Get 100% Original content... DAILY! Get 1x NEW Google Ranking...​every day! Make 11x Commissions... Fast! ZERO Hosting Or Domain 100% Beginner Friendly \$6 TRILLION: take your slice',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
@@ -182,12 +213,50 @@ class _Affiliatepag4WidgetState extends State<Affiliatepag4Widget> {
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    FlutterFlowAdBanner(
-                                      width: 350,
-                                      height: 500,
-                                      showsTestAd: false,
-                                      androidAdUnitID:
-                                          'ca-app-pub-1386384442132281/4494663378',
+                                    Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        )
+                                      ],
                                     )
                                   ],
                                 ),
@@ -198,7 +267,7 @@ class _Affiliatepag4WidgetState extends State<Affiliatepag4Widget> {
                                     children: [
                                       Expanded(
                                         child: Text(
-                                          'Get FREE Traffic & Commissions With\\nAI Google Rankings DAILY',
+                                          'Get FREE Traffic & Commissions With AI Google Rankings DAILY',
                                           style:
                                               FlutterFlowTheme.title1.override(
                                             fontFamily: 'Poppins',
@@ -218,7 +287,7 @@ class _Affiliatepag4WidgetState extends State<Affiliatepag4Widget> {
                                     children: [
                                       Expanded(
                                         child: Text(
-                                          '\\n.- Login to the app & launch your website 1 click\\n.- Add your affiliate links\\n.- Watch as the AI writes daily content that gets you an avalanche of daily google rankings  \\n',
+                                          '\\n.- Login to the app & launch your website 1 click .- Add your affiliate links .- Watch as the AI writes daily content that gets you an avalanche of daily google rankings  \\n',
                                           textAlign: TextAlign.justify,
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
@@ -289,12 +358,50 @@ class _Affiliatepag4WidgetState extends State<Affiliatepag4Widget> {
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    FlutterFlowAdBanner(
-                                      width: 350,
-                                      height: 500,
-                                      showsTestAd: false,
-                                      androidAdUnitID:
-                                          'ca-app-pub-1386384442132281/4494663378',
+                                    Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        )
+                                      ],
                                     )
                                   ],
                                 ),
@@ -307,7 +414,7 @@ class _Affiliatepag4WidgetState extends State<Affiliatepag4Widget> {
                                         child: Align(
                                           alignment: Alignment(-0.55, 0),
                                           child: Text(
-                                            'I Found A Traffic Avalanche! \\nHere\'s The PROOF...',
+                                            'I Found A Traffic Avalanche! Here\'s The PROOF...',
                                             style: FlutterFlowTheme.title2
                                                 .override(
                                               fontFamily: 'Poppins',
@@ -328,7 +435,7 @@ class _Affiliatepag4WidgetState extends State<Affiliatepag4Widget> {
                                     children: [
                                       Expanded(
                                         child: Text(
-                                          'I can\'t dance. And I can\'t cook. But boy can I spot a trend. And I\'ve just plugged into a massive avalanche of cash! Something that gets me daily Google rankings - and huge commissions that get bigger and bigger!\\n\\n',
+                                          'I can\'t dance. And I can\'t cook. But boy can I spot a trend. And I\'ve just plugged into a massive avalanche of cash! Something that gets me daily Google rankings - and huge commissions that get bigger and bigger!',
                                           style: FlutterFlowTheme.bodyText1
                                               .override(
                                             fontFamily: 'Poppins',

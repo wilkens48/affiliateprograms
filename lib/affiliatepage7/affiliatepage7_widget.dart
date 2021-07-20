@@ -3,7 +3,6 @@ import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
 import '../home_page/home_page_widget.dart';
-import '../slaphpage/slaphpage_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -34,20 +33,10 @@ class _Affiliatepage7WidgetState extends State<Affiliatepage7Widget> {
         },
         backgroundColor: Color(0x2F900AEA),
         elevation: 8,
-        label: InkWell(
-          onTap: () async {
-            await Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => SlaphpageWidget(),
-              ),
-            );
-          },
-          child: Icon(
-            Icons.keyboard_backspace,
-            color: Color(0xFF030000),
-            size: 32,
-          ),
+        label: Icon(
+          Icons.keyboard_backspace,
+          color: Color(0xFF030000),
+          size: 32,
         ),
       ),
       body: Column(
@@ -80,12 +69,50 @@ class _Affiliatepage7WidgetState extends State<Affiliatepage7Widget> {
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    FlutterFlowAdBanner(
-                                      width: 350,
-                                      height: 500,
-                                      showsTestAd: false,
-                                      androidAdUnitID:
-                                          'ca-app-pub-1386384442132281/4494663378',
+                                    Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        )
+                                      ],
                                     )
                                   ],
                                 ),
@@ -112,7 +139,7 @@ class _Affiliatepage7WidgetState extends State<Affiliatepage7Widget> {
                                     children: [
                                       Expanded(
                                         child: Text(
-                                          'Parents are buying \"Color By Number\" Books for their children as \"Color By Number\" is a great education tool that teaches children to recognize numbers and solves simple mathematical problems...\\n',
+                                          'Parents are buying \"Color By Number\" Books for their children as \"Color By Number\" is a great education tool that teaches children to recognize numbers and solves simple mathematical problems...',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
@@ -181,12 +208,50 @@ class _Affiliatepage7WidgetState extends State<Affiliatepage7Widget> {
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    FlutterFlowAdBanner(
-                                      width: 350,
-                                      height: 500,
-                                      showsTestAd: false,
-                                      androidAdUnitID:
-                                          'ca-app-pub-1386384442132281/4494663378',
+                                    Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        )
+                                      ],
                                     )
                                   ],
                                 ),
@@ -217,7 +282,7 @@ class _Affiliatepage7WidgetState extends State<Affiliatepage7Widget> {
                                     children: [
                                       Expanded(
                                         child: Text(
-                                          'The Secret Email System is a counterintuitive approach to creating an running an online business, specifically the freedom life-style business model, that allows you to build a sustainable and profitable long term business that gives you the freedom, fun and adventure.',
+                                          'That’s why “Color By Number” Books and Pages for Kids is a NEW Growing Book Niche on Amazon & Etsy. Check out these Popular Color By Number Books selling on Amazon...',
                                           textAlign: TextAlign.justify,
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
@@ -288,12 +353,50 @@ class _Affiliatepage7WidgetState extends State<Affiliatepage7Widget> {
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    FlutterFlowAdBanner(
-                                      width: 350,
-                                      height: 500,
-                                      showsTestAd: false,
-                                      androidAdUnitID:
-                                          'ca-app-pub-1386384442132281/4494663378',
+                                    Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        ),
+                                        FlutterFlowAdBanner(
+                                          width:
+                                              MediaQuery.of(context).size.width,
+                                          height: 50,
+                                          showsTestAd: false,
+                                          androidAdUnitID:
+                                              'ca-app-pub-1386384442132281/4494663378',
+                                        )
+                                      ],
                                     )
                                   ],
                                 ),
@@ -306,7 +409,7 @@ class _Affiliatepage7WidgetState extends State<Affiliatepage7Widget> {
                                         child: Align(
                                           alignment: Alignment(-0.55, 0),
                                           child: Text(
-                                            'Although Publishing “Color By Number” Books and Pages for Kids is Becoming More and More Profitable, NOT everyone can cash in on this opportunity...\\nTHE PROBLEMS ARE …',
+                                            'Although Publishing “Color By Number” Books and Pages for Kids is Becoming More and More Profitable, NOT everyone can cash in on this opportunity...',
                                             style: FlutterFlowTheme.title2
                                                 .override(
                                               fontFamily: 'Poppins',
@@ -327,7 +430,7 @@ class _Affiliatepage7WidgetState extends State<Affiliatepage7Widget> {
                                     children: [
                                       Expanded(
                                         child: Text(
-                                          'Creating “Color By Number” for kids is hard\\n“Color By Number” Stock Illustration Are Expensive\\nOutsourcing is expensive',
+                                          'Creating “Color By Number” for kids is hard “Color By Number” Stock Illustration Are Expensive Outsourcing is expensive',
                                           style: FlutterFlowTheme.bodyText1
                                               .override(
                                             fontFamily: 'Poppins',

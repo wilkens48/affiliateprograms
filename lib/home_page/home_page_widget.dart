@@ -103,7 +103,19 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           children: [
                             FlutterFlowAdBanner(
                               width: MediaQuery.of(context).size.width,
-                              height: 100,
+                              height: 50,
+                              showsTestAd: false,
+                              androidAdUnitID:
+                                  'ca-app-pub-1386384442132281/4494663378',
+                            )
+                          ],
+                        ),
+                        Row(
+                          mainAxisSize: MainAxisSize.max,
+                          children: [
+                            FlutterFlowAdBanner(
+                              width: MediaQuery.of(context).size.width,
+                              height: 50,
                               showsTestAd: false,
                               androidAdUnitID:
                                   'ca-app-pub-1386384442132281/4494663378',
@@ -111,13 +123,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ],
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => Affiliatepage2Widget(),
+                                  builder: (context) => Affiliatepage1Widget(),
                                 ),
                               );
                             },
@@ -174,13 +186,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => Affiliatepage1Widget(),
+                                  builder: (context) => Affiliatepage2Widget(),
                                 ),
                               );
                             },
@@ -237,7 +249,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -300,7 +312,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -363,7 +375,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -426,7 +438,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -489,7 +501,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -552,7 +564,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -615,7 +627,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -682,7 +694,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -749,7 +761,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -816,7 +828,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -883,7 +895,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -961,7 +973,19 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           children: [
                             FlutterFlowAdBanner(
                               width: MediaQuery.of(context).size.width,
-                              height: 100,
+                              height: 50,
+                              showsTestAd: false,
+                              androidAdUnitID:
+                                  'ca-app-pub-1386384442132281/4494663378',
+                            )
+                          ],
+                        ),
+                        Row(
+                          mainAxisSize: MainAxisSize.max,
+                          children: [
+                            FlutterFlowAdBanner(
+                              width: MediaQuery.of(context).size.width,
+                              height: 50,
                               showsTestAd: false,
                               androidAdUnitID:
                                   'ca-app-pub-1386384442132281/4494663378',
@@ -969,13 +993,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ],
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => Affiliatepage2Widget(),
+                                  builder: (context) => Affiliatepage1Widget(),
                                 ),
                               );
                             },
@@ -1032,13 +1056,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => Affiliatepage1Widget(),
+                                  builder: (context) => Affiliatepage2Widget(),
                                 ),
                               );
                             },
@@ -1095,7 +1119,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -1158,7 +1182,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -1221,7 +1245,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -1284,7 +1308,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -1347,7 +1371,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -1410,7 +1434,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -1472,317 +1496,337 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        InkWell(
-                          onTap: () async {
-                            await Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => Affiliatepage9Widget(),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage9Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.tertiaryColor,
                               ),
-                            );
-                          },
-                          child: Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: FlutterFlowTheme.tertiaryColor,
-                            ),
-                            child: Padding(
-                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Expanded(
-                                    child: Column(
+                              child: Padding(
+                                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'PLR Home Fitness Regimen',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Open Sans',
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          Text(
+                                            'This Is A Far-Fetched Product With Private Label Rights To Offer You The Following Benefits: -Well-Researched and Up-to-Date content -Authentic sales material for reselling',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Poppins',
+                                              fontSize: 12,
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                    ),
+                                    Column(
                                       mainAxisSize: MainAxisSize.max,
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
                                       children: [
-                                        Text(
-                                          'PLR Home Fitness Regimen',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Open Sans',
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
-                                        Text(
-                                          'It\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Poppins',
-                                            fontSize: 12,
-                                          ),
+                                        Icon(
+                                          Icons.navigate_next_sharp,
+                                          color: Colors.black,
+                                          size: 24,
                                         )
                                       ],
-                                    ),
-                                  ),
-                                  Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.navigate_next_sharp,
-                                        color: Colors.black,
-                                        size: 24,
-                                      )
-                                    ],
-                                  )
-                                ],
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
                         ),
-                        InkWell(
-                          onTap: () async {
-                            await Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => Affiliatepage10Widget(),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage10Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.tertiaryColor,
                               ),
-                            );
-                          },
-                          child: Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: FlutterFlowTheme.tertiaryColor,
-                            ),
-                            child: Padding(
-                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Expanded(
-                                    child: Column(
+                              child: Padding(
+                                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'Zero Hour Work Days (LAUNCH)',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Open Sans',
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          Text(
+                                            'Start today, quit the 9-5 and work from your couch. Zero Hour Work Days creates a lifestyle business that gives you money and time freedom.',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Poppins',
+                                              fontSize: 12,
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                    ),
+                                    Column(
                                       mainAxisSize: MainAxisSize.max,
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
                                       children: [
-                                        Text(
-                                          'Zero Hour Work Days (LAUNCH)',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Open Sans',
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
-                                        Text(
-                                          'Start today, quit the 9-5 and work from your couch. Zero Hour Work Days creates a lifestyle business that gives you money and time freedom.',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Poppins',
-                                            fontSize: 12,
-                                          ),
+                                        Icon(
+                                          Icons.navigate_next_sharp,
+                                          color: Colors.black,
+                                          size: 24,
                                         )
                                       ],
-                                    ),
-                                  ),
-                                  Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.navigate_next_sharp,
-                                        color: Colors.black,
-                                        size: 24,
-                                      )
-                                    ],
-                                  )
-                                ],
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
                         ),
-                        InkWell(
-                          onTap: () async {
-                            await Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => Affiliatepage11Widget(),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage11Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.tertiaryColor,
                               ),
-                            );
-                          },
-                          child: Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: FlutterFlowTheme.tertiaryColor,
-                            ),
-                            child: Padding(
-                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Expanded(
-                                    child: Column(
+                              child: Padding(
+                                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'Pinterest Profit Secrets with PLR',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Open Sans',
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          Text(
+                                            'It\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Poppins',
+                                              fontSize: 12,
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                    ),
+                                    Column(
                                       mainAxisSize: MainAxisSize.max,
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
                                       children: [
-                                        Text(
-                                          'Pinterest Profit Secrets with PLR',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Open Sans',
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
-                                        Text(
-                                          'It\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Poppins',
-                                            fontSize: 12,
-                                          ),
+                                        Icon(
+                                          Icons.navigate_next_sharp,
+                                          color: Colors.black,
+                                          size: 24,
                                         )
                                       ],
-                                    ),
-                                  ),
-                                  Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.navigate_next_sharp,
-                                        color: Colors.black,
-                                        size: 24,
-                                      )
-                                    ],
-                                  )
-                                ],
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
                         ),
-                        InkWell(
-                          onTap: () async {
-                            await Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => Affiliatepage12Widget(),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage12Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.tertiaryColor,
                               ),
-                            );
-                          },
-                          child: Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: FlutterFlowTheme.tertiaryColor,
-                            ),
-                            child: Padding(
-                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Expanded(
-                                    child: Column(
+                              child: Padding(
+                                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'UOP FX Academy',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Open Sans',
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          Text(
+                                            'We provide you with Forex training so even complete newbies can take advantage of this market’s profit producing potential.',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Poppins',
+                                              fontSize: 12,
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                    ),
+                                    Column(
                                       mainAxisSize: MainAxisSize.max,
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
                                       children: [
-                                        Text(
-                                          'UOP FX Academy',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Open Sans',
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
-                                        Text(
-                                          'We provide you with Forex training so even complete newbies can take advantage of this market’s profit producing potential.',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Poppins',
-                                            fontSize: 12,
-                                          ),
+                                        Icon(
+                                          Icons.navigate_next_sharp,
+                                          color: Colors.black,
+                                          size: 24,
                                         )
                                       ],
-                                    ),
-                                  ),
-                                  Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.navigate_next_sharp,
-                                        color: Colors.black,
-                                        size: 24,
-                                      )
-                                    ],
-                                  )
-                                ],
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
                         ),
-                        InkWell(
-                          onTap: () async {
-                            await Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => Affiliatepage13Widget(),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage13Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.tertiaryColor,
                               ),
-                            );
-                          },
-                          child: Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: FlutterFlowTheme.tertiaryColor,
-                            ),
-                            child: Padding(
-                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Expanded(
-                                    child: Column(
+                              child: Padding(
+                                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'Viral Quotes Kit - PLR',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Open Sans',
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          Text(
+                                            'Grab 200+ Viral Quote Images with Private Label Rights to Engage Your Social Media Audience and Magnify Your Sales and Profits Almost Instantly!!!',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Poppins',
+                                              fontSize: 12,
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                    ),
+                                    Column(
                                       mainAxisSize: MainAxisSize.max,
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
                                       children: [
-                                        Text(
-                                          'Viral Quotes Kit - PLR',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Open Sans',
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
-                                        Text(
-                                          'Grab 200+ Viral Quote Images with Private Label Rights to Engage Your Social Media Audience and Magnify Your Sales and Profits Almost Instantly!!!',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Poppins',
-                                            fontSize: 12,
-                                          ),
+                                        Icon(
+                                          Icons.navigate_next_sharp,
+                                          color: Colors.black,
+                                          size: 24,
                                         )
                                       ],
-                                    ),
-                                  ),
-                                  Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.navigate_next_sharp,
-                                        color: Colors.black,
-                                        size: 24,
-                                      )
-                                    ],
-                                  )
-                                ],
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
@@ -1799,7 +1843,19 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           children: [
                             FlutterFlowAdBanner(
                               width: MediaQuery.of(context).size.width,
-                              height: 100,
+                              height: 50,
+                              showsTestAd: false,
+                              androidAdUnitID:
+                                  'ca-app-pub-1386384442132281/4494663378',
+                            )
+                          ],
+                        ),
+                        Row(
+                          mainAxisSize: MainAxisSize.max,
+                          children: [
+                            FlutterFlowAdBanner(
+                              width: MediaQuery.of(context).size.width,
+                              height: 50,
                               showsTestAd: false,
                               androidAdUnitID:
                                   'ca-app-pub-1386384442132281/4494663378',
@@ -1807,13 +1863,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ],
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => Affiliatepage2Widget(),
+                                  builder: (context) => Affiliatepage1Widget(),
                                 ),
                               );
                             },
@@ -1870,13 +1926,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                  builder: (context) => Affiliatepage1Widget(),
+                                  builder: (context) => Affiliatepage2Widget(),
                                 ),
                               );
                             },
@@ -1933,7 +1989,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -1996,7 +2052,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -2059,7 +2115,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -2122,7 +2178,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -2185,7 +2241,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -2248,7 +2304,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
                           child: InkWell(
                             onTap: () async {
                               await Navigator.push(
@@ -2310,317 +2366,337 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                         ),
-                        InkWell(
-                          onTap: () async {
-                            await Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => Affiliatepage9Widget(),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage9Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.tertiaryColor,
                               ),
-                            );
-                          },
-                          child: Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: FlutterFlowTheme.tertiaryColor,
-                            ),
-                            child: Padding(
-                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Expanded(
-                                    child: Column(
+                              child: Padding(
+                                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'PLR Home Fitness Regimen',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Open Sans',
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          Text(
+                                            'This Is A Far-Fetched Product With Private Label Rights To Offer You The Following Benefits: -Well-Researched and Up-to-Date content -Authentic sales material for reselling',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Poppins',
+                                              fontSize: 12,
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                    ),
+                                    Column(
                                       mainAxisSize: MainAxisSize.max,
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
                                       children: [
-                                        Text(
-                                          'PLR Home Fitness Regimen',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Open Sans',
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
-                                        Text(
-                                          'It\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Poppins',
-                                            fontSize: 12,
-                                          ),
+                                        Icon(
+                                          Icons.navigate_next_sharp,
+                                          color: Colors.black,
+                                          size: 24,
                                         )
                                       ],
-                                    ),
-                                  ),
-                                  Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.navigate_next_sharp,
-                                        color: Colors.black,
-                                        size: 24,
-                                      )
-                                    ],
-                                  )
-                                ],
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
                         ),
-                        InkWell(
-                          onTap: () async {
-                            await Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => Affiliatepage10Widget(),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage10Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.tertiaryColor,
                               ),
-                            );
-                          },
-                          child: Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: FlutterFlowTheme.tertiaryColor,
-                            ),
-                            child: Padding(
-                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Expanded(
-                                    child: Column(
+                              child: Padding(
+                                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'Zero Hour Work Days (LAUNCH)',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Open Sans',
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          Text(
+                                            'Start today, quit the 9-5 and work from your couch. Zero Hour Work Days creates a lifestyle business that gives you money and time freedom.',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Poppins',
+                                              fontSize: 12,
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                    ),
+                                    Column(
                                       mainAxisSize: MainAxisSize.max,
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
                                       children: [
-                                        Text(
-                                          'Zero Hour Work Days (LAUNCH)',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Open Sans',
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
-                                        Text(
-                                          'Start today, quit the 9-5 and work from your couch. Zero Hour Work Days creates a lifestyle business that gives you money and time freedom.',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Poppins',
-                                            fontSize: 12,
-                                          ),
+                                        Icon(
+                                          Icons.navigate_next_sharp,
+                                          color: Colors.black,
+                                          size: 24,
                                         )
                                       ],
-                                    ),
-                                  ),
-                                  Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.navigate_next_sharp,
-                                        color: Colors.black,
-                                        size: 24,
-                                      )
-                                    ],
-                                  )
-                                ],
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
                         ),
-                        InkWell(
-                          onTap: () async {
-                            await Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => Affiliatepage11Widget(),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage11Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.tertiaryColor,
                               ),
-                            );
-                          },
-                          child: Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: FlutterFlowTheme.tertiaryColor,
-                            ),
-                            child: Padding(
-                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Expanded(
-                                    child: Column(
+                              child: Padding(
+                                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'Pinterest Profit Secrets with PLR',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Open Sans',
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          Text(
+                                            'It\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Poppins',
+                                              fontSize: 12,
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                    ),
+                                    Column(
                                       mainAxisSize: MainAxisSize.max,
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
                                       children: [
-                                        Text(
-                                          'Pinterest Profit Secrets with PLR',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Open Sans',
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
-                                        Text(
-                                          'It\'s loaded with Full Private Label Rights. This Means You Can Sell It To Others Under Your Own Name And Get Huge Cash Roll-Into Their Pockets On Complete Autopilot.',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Poppins',
-                                            fontSize: 12,
-                                          ),
+                                        Icon(
+                                          Icons.navigate_next_sharp,
+                                          color: Colors.black,
+                                          size: 24,
                                         )
                                       ],
-                                    ),
-                                  ),
-                                  Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.navigate_next_sharp,
-                                        color: Colors.black,
-                                        size: 24,
-                                      )
-                                    ],
-                                  )
-                                ],
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
                         ),
-                        InkWell(
-                          onTap: () async {
-                            await Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => Affiliatepage12Widget(),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage12Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.tertiaryColor,
                               ),
-                            );
-                          },
-                          child: Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: FlutterFlowTheme.tertiaryColor,
-                            ),
-                            child: Padding(
-                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Expanded(
-                                    child: Column(
+                              child: Padding(
+                                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'UOP FX Academy',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Open Sans',
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          Text(
+                                            'We provide you with Forex training so even complete newbies can take advantage of this market’s profit producing potential.',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Poppins',
+                                              fontSize: 12,
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                    ),
+                                    Column(
                                       mainAxisSize: MainAxisSize.max,
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
                                       children: [
-                                        Text(
-                                          'UOP FX Academy',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Open Sans',
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
-                                        Text(
-                                          'We provide you with Forex training so even complete newbies can take advantage of this market’s profit producing potential.',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Poppins',
-                                            fontSize: 12,
-                                          ),
+                                        Icon(
+                                          Icons.navigate_next_sharp,
+                                          color: Colors.black,
+                                          size: 24,
                                         )
                                       ],
-                                    ),
-                                  ),
-                                  Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.navigate_next_sharp,
-                                        color: Colors.black,
-                                        size: 24,
-                                      )
-                                    ],
-                                  )
-                                ],
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
                         ),
-                        InkWell(
-                          onTap: () async {
-                            await Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => Affiliatepage13Widget(),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(12, 12, 12, 12),
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => Affiliatepage13Widget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: FlutterFlowTheme.tertiaryColor,
                               ),
-                            );
-                          },
-                          child: Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: FlutterFlowTheme.tertiaryColor,
-                            ),
-                            child: Padding(
-                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Expanded(
-                                    child: Column(
+                              child: Padding(
+                                padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'Viral Quotes Kit - PLR',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Open Sans',
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          Text(
+                                            'Grab 200+ Viral Quote Images with Private Label Rights to Engage Your Social Media Audience and Magnify Your Sales and Profits Almost Instantly!!!',
+                                            style: FlutterFlowTheme.subtitle2
+                                                .override(
+                                              fontFamily: 'Poppins',
+                                              fontSize: 12,
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                    ),
+                                    Column(
                                       mainAxisSize: MainAxisSize.max,
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
                                       children: [
-                                        Text(
-                                          'Viral Quotes Kit - PLR',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Open Sans',
-                                            fontWeight: FontWeight.bold,
-                                          ),
-                                        ),
-                                        Text(
-                                          'Grab 200+ Viral Quote Images with Private Label Rights to Engage Your Social Media Audience and Magnify Your Sales and Profits Almost Instantly!!!',
-                                          style: FlutterFlowTheme.subtitle2
-                                              .override(
-                                            fontFamily: 'Poppins',
-                                            fontSize: 12,
-                                          ),
+                                        Icon(
+                                          Icons.navigate_next_sharp,
+                                          color: Colors.black,
+                                          size: 24,
                                         )
                                       ],
-                                    ),
-                                  ),
-                                  Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.navigate_next_sharp,
-                                        color: Colors.black,
-                                        size: 24,
-                                      )
-                                    ],
-                                  )
-                                ],
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
