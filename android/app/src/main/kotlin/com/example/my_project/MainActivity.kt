@@ -1,4 +1,4 @@
-package com.programsaffiliate
+package com.programsaffiliate.AppDev
 
 import io.flutter.embedding.android.FlutterActivity
 

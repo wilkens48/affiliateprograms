@@ -271,17 +271,6 @@ class _Affiliatepag4WidgetState extends State<Affiliatepag4Widget> {
                                       )
                                     ],
                                   ),
-                                ),
-                                IconButton(
-                                  onPressed: () {
-                                    print('IconButton pressed ...');
-                                  },
-                                  icon: Icon(
-                                    Icons.keyboard_tab_outlined,
-                                    color: Colors.black,
-                                    size: 30,
-                                  ),
-                                  iconSize: 30,
                                 )
                               ],
                             ),

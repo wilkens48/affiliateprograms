@@ -112,7 +112,7 @@ class _Affiliatepage1WidgetState extends State<Affiliatepage1Widget> {
                                     children: [
                                       Expanded(
                                         child: Text(
-                                          '\"New Book Reveals How I Built A 7-Figure Online Business Using Nothing But Ethical Email Marketing To Drive Revenue, Sales and Commissions...”\\n',
+                                          '\"New Book Reveals How I Built A 7-Figure Online Business Using Nothing But Ethical Email Marketing To Drive Revenue, Sales and Commissions...”',
                                           style: FlutterFlowTheme.subtitle2
                                               .override(
                                             fontFamily: 'Poppins',
@@ -203,7 +203,7 @@ class _Affiliatepage1WidgetState extends State<Affiliatepage1Widget> {
                                             fontFamily: 'Poppins',
                                             color:
                                                 FlutterFlowTheme.tertiaryColor,
-                                            fontSize: 26,
+                                            fontSize: 20,
                                           ),
                                         ),
                                       )
@@ -270,17 +270,6 @@ class _Affiliatepage1WidgetState extends State<Affiliatepage1Widget> {
                                       )
                                     ],
                                   ),
-                                ),
-                                IconButton(
-                                  onPressed: () {
-                                    print('IconButton pressed ...');
-                                  },
-                                  icon: Icon(
-                                    Icons.keyboard_tab_outlined,
-                                    color: Colors.black,
-                                    size: 30,
-                                  ),
-                                  iconSize: 30,
                                 )
                               ],
                             ),
@@ -338,7 +327,7 @@ class _Affiliatepage1WidgetState extends State<Affiliatepage1Widget> {
                                     children: [
                                       Expanded(
                                         child: Text(
-                                          'I realize this is very inexpensive and that I’m practically giving it away… And you’re probably wondering: “If you’re doing so well with this, why would you give it away for next to nothing?”…',
+                                          'I’m practically giving it away… And you’re probably wondering: “If you’re doing so well with this, why would you give it away for next to nothing?”…',
                                           style: FlutterFlowTheme.bodyText1
                                               .override(
                                             fontFamily: 'Poppins',
